@@ -1,0 +1,11 @@
+body { background-color: #d0f0ff; font-family: 'Courier New'; }
+h1 { color: #0077b6; }
+nav a { margin: 10px; color: #0077b6; font-style: italic; }
+h1 {
+  animation: fadein 2s ease-in-out;
+}
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
